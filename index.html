@@ -1,0 +1,25 @@
+<div class='container' ng-app='myApp'>
+  <h1>HERO GALLERY</H1>
+   <div ng-controller='controllerOne'>
+     <div class='row'>
+     <div class='col-xs-1' ng-repeat='hero in heroesOne'>
+       <div class='portrait'>
+         <img ng-src='{{hero.icon}}'/>
+         <p>{{hero.name | uppercase}}</p>
+       </div>
+      </div>
+     </div><!--end of row1-->
+     <br/>
+    </div><!--end of controller-->
+  <div ng-controller='controllerTwo'>
+    <div class='row'>
+      <div class='col-xs-1' ng-repeat='hero in heroesTwo'>
+        <div class='portrait'>
+          <img ng-src='{{hero.icon}}'/>
+          <p>{{hero.name | uppercase}}</p>
+        </div><!--end of portrait-->
+      </div>
+    </div><!--end of row2-->
+  </div><!--end of controller-->
+
+</div>
