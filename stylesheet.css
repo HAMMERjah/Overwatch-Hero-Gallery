@@ -1,0 +1,48 @@
+body{
+  background-image:url('http://res.cloudinary.com/hammerjah/image/upload/v1469394470/overwatch/latest.jpg');
+  background-size:cover;
+}
+.container{
+  margin-top:8%;
+  margin-bottom:2em;
+  width:95%;
+}
+h1{
+  font-size:7em;
+  font-style:italic;
+  font-family:Roboto;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: .02em black;
+  margin-bottom:-.15em;
+}
+p{
+  width:100%;
+  height:2em;
+  color:#1a314c;
+  font-family:Roboto;
+  font-weight:bold;
+  text-align:center;
+  padding-top:.4em;
+  font-size:larger;
+}
+.portrait{
+  font-size:1em;
+  position: relative;
+  background:#d1dfef;
+  background: -webkit-radial-gradient(center, ellipse cover,  #d1dfef 0%,#84aad5 100%);
+  border:solid .25em black;
+  width:9em;
+  height:auto;
+}
+/*thanks to Wifeo for hover help*/
+.portrait:hover{
+   border:solid .25em white; 
+   box-shadow: 0px 0px 25px #fff;
+   z-index: 2;
+   -webkit-transition: all 100ms;
+   -webkit-transform: scale(1.2);
+   transition: all 100ms;
+   transform: scale(1.2);
+}
